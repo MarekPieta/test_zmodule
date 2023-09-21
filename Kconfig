@@ -1,0 +1,8 @@
+menu "Test Zmodule menu"
+
+config TEST_ZMODULE_FEATURE_XYZ
+	bool "Enable feature XYZ"
+	help
+	  Test feature. It does nothing.
+
+endmenu
